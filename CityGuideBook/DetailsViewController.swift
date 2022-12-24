@@ -13,12 +13,17 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var CityNameLabel: UILabel!
     @IBOutlet weak var CityRegionLabel: UILabel!
     
+    var chosenCity : City?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        CityNameLabel.text = chosenCity?.name
+        CityRegionLabel.text = chosenCity?.region
+        imageView.image = chosenCity?.image
+
     }
     
 

@@ -14,6 +14,7 @@
 		7F7F070C29566D1F004600DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7F070B29566D1F004600DF /* Assets.xcassets */; };
 		7F7F070F29566D1F004600DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7F070D29566D1F004600DF /* LaunchScreen.storyboard */; };
 		7F7F071729566E22004600DF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F071629566E22004600DF /* DetailsViewController.swift */; };
+		7F7F07192956732C004600DF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F07182956732C004600DF /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7F7F070E29566D1F004600DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F7F071029566D1F004600DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F7F071629566E22004600DF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		7F7F07182956732C004600DF /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7F7F070429566D1E004600DF /* SceneDelegate.swift */,
 				7F7F070629566D1E004600DF /* ViewController.swift */,
 				7F7F071629566E22004600DF /* DetailsViewController.swift */,
+				7F7F07182956732C004600DF /* City.swift */,
 				7F7F070829566D1E004600DF /* Main.storyboard */,
 				7F7F070B29566D1F004600DF /* Assets.xcassets */,
 				7F7F070D29566D1F004600DF /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7F070729566D1E004600DF /* ViewController.swift in Sources */,
+				7F7F07192956732C004600DF /* City.swift in Sources */,
 				7F7F070329566D1E004600DF /* AppDelegate.swift in Sources */,
 				7F7F070529566D1E004600DF /* SceneDelegate.swift in Sources */,
 				7F7F071729566E22004600DF /* DetailsViewController.swift in Sources */,
